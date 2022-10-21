@@ -1,4 +1,4 @@
-# A022 - CSS II
+# CSS II - Exercícios
 
 ### Setup do projeto no Git
 
