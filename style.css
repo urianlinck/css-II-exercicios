@@ -1,24 +1,54 @@
 header{
     border-bottom: 1px solid black;
+    margin: auto;
+    text-align: center;
   }
-  
+
   main{
     width: 800px;
+    margin: auto;
   }
-  
+  section{
+   
+    text-align: center;
+    text-align:justify;
+  }
+
   aside{
+    position: fixed;
+    right: 0;
     width: 180px;
     border: 1px solid black;
   }
   
   footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
     background-color: black;
     color: white;
     width: 100%;
+    margin-bottom: 0;
+    text-align: center;
   }
-  
+
   button{
     background-color: black;
     color: white;
     font-family: serif;
+    align-self: center;
   }
+  
+  .aside-conteudo:has(button:active){
+    background: black;
+    color: white;
+  }
+
+  button:active{
+    background-color: white;
+    color: black;
+  }
+
+  /* aside:has(button:active){
+    fiter: invert(100%)
+  } */
